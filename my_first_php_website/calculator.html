@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms basic</title>
+  </head>
+  <body>
+    <form action="calculate.php" method="POST">
+     <label >Enter the first number: <input type="number"  name="num1" required></label>
+     <br>
+     <label >select an operator <select name="operation" id="operation">
+        <option value="+">sum</option>
+        <option value="-">subtract</option>
+        <option value="*">multiply</option>
+        <option value="/">divide</option>
+     </select></label>
+     <br>
+     <label >Enter the second number: <input type="number" name="num2" required></label>
+      <button type="submit">calculate</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+.btn{
+    padding:4px;
+    border-radius: 8px;
+    border: none;
+    background-color: blue;
+    color:white;
+    
+}
+
+.tb{
+    width:50%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    
+}
+
+.tb td{
+    border: 1px solid black;
+    padding: 10px;
+
+
+}
+.tb th{
+    background-color: blue;
+    color: #f2f2f2;
+    padding: 5px;
+}
+
+.container{
+    min-height: 50vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: green;
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.tableHeader{
+    background-color: #f2f2f2;
+}
+
+.items-price{
+    text-align: center;
+}
